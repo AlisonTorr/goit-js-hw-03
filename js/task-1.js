@@ -5,8 +5,8 @@ const user = {
   premium: true,
 };
 
-user.mood = happy;
-user.hobby = skydiving;
+user.mood = "happy";
+user.hobby = "skydiving";
 user.premium = false;
 
 const keys = Object.keys(user);
