@@ -18,6 +18,8 @@ const countTotalSalary = function (employees) {
   for (const value of values) {
     totalSalary += value;
   }
+
+  return totalSalary;
 };
 
 console.log(countTotalSalary({}));
