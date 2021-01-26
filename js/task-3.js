@@ -3,13 +3,9 @@ const findBestEmployee = function (employees) {
   console.log(values);
 
   for (const value of values) {
-    let i = 1;
-    i < values.length;
-    i += 1;
-    let maxTasks = value[0];
-    if (values[i] > maxTasks) {
-      maxTasks = values[i];
-    }
+    const maxTasks = Math.max(...values);
+    console.log(maxTasks);
+
     const index = values.indexOf(maxTasks);
 
     const keys = Object.keys(employees);
