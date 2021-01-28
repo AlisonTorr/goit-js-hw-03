@@ -10,10 +10,9 @@ const employeesGroupB = {
   chelsy: 150,
 };
 
-let totalSalary = 0;
-
 const countTotalSalary = function (employees) {
   const values = Object.value(employees);
+  let totalSalary = 0;
 
   for (const value of values) {
     totalSalary += value;
