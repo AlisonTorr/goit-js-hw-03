@@ -12,9 +12,9 @@ const getAllPropValues = function (arr, prop) {
     if (product[key] === prop) {
       resultArr.push[product[key]];
     }
-  }
 
-  return resultArr;
+    return resultArr;
+  }
 };
 
 /*
