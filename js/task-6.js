@@ -6,7 +6,7 @@ const products = [
 ];
 
 const calculateTotalPrice = function (allProdcuts, productName) {
-  const result = 0;
+  let result = 0;
   for (const product of products) {
     if (product.name === productName) {
       result = product.price * product.quantity;
