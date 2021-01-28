@@ -13,7 +13,7 @@ const getAllPropValues = function (arr, prop) {
     for (const key of keys) {
       if (key === prop) {
         resultArr.push(product[key]);
-      } else continue;
+      }
     }
 
     return resultArr;
