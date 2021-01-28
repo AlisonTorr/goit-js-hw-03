@@ -11,7 +11,7 @@ const employeesGroupB = {
 };
 
 const countTotalSalary = function (employees) {
-  const values = Object.value(employees);
+  const values = Object.values(employees);
   let totalSalary = 0;
 
   for (const value of values) {
