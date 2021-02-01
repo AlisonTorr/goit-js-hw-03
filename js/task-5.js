@@ -7,13 +7,12 @@ const products = [
 
 const getAllPropValues = function (arr, prop) {
   const propArr = [];
-  let resultArr = [];
 
   for (const product of products) {
     const keys = Object.keys(product);
     for (const key of keys) {
       if (key === prop) {
-        resultArr = propArr.push(product[key]);
+        const resultArr = propArr.push(product[key]);
       }
     }
 
